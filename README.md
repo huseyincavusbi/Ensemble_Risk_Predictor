@@ -113,10 +113,13 @@ To use health advice generation, you need to securely add your Gemini API key as
 
 1.  **Get your API Key:** Follow these instructions on how to get one:
         *   **Google AI Studio (Recommended for easy setup):**
-            Go to [Google AI Studio](https://aistudio.google.com/app/apikey). Create a new API key and copy it.
+
+    Go to [Google AI Studio](https://aistudio.google.com/app/apikey). Create a new API key and copy it.
         *   **Google Cloud Console (Vertex AI):**
-            Create a new project, enable the "Vertex AI API", and then create and copy the API key.
-2.  **Store your API key in Colab Secrets:**
+
+    Create a new project, enable the "Vertex AI API", and then create and copy the API key.
+    
+3.  **Store your API key in Colab Secrets:**
     *   In your Google Colab notebook, go to the left sidebar and click on the **key icon** (Secrets).
     *   Click **"+ Add Secret"**
     *   For the **"Name"** field, use `GEMINI_API_KEY`
@@ -137,7 +140,7 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 
 ## Disclaimer
 
-**Disclaimer:** This Ensemble Risk Predictor is intended for research purposes only and should not be used as a substitute for professional medical advice. The predictions provided by this model are based on an analysis of data and should not be considered a diagnosis or a guarantee of health outcomes. Always consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment.
+This Ensemble Risk Predictor is intended for research purposes only and should not be used as a substitute for professional medical advice. The predictions provided by this model are based on an analysis of data and should not be considered a diagnosis or a guarantee of health outcomes. Always consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment.
 
 ## License
 
