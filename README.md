@@ -87,7 +87,7 @@ This project is designed to run in Google Colab, using the provided notebook ([E
     *   Clone the GitHub repository
     *   Download the dataset
     *   Install necessary libraries
-    *   Train the model using the provided notebook.
+    *   Train the model using the provided notebook. / Use already trained model to make predictions.
     *  Allow you to interact with the model.
 
 ### Inputting Data Directly
