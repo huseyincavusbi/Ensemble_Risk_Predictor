@@ -20,6 +20,7 @@ This project provides an ensemble machine learning model to predict the risk of 
     *   [Combining and Analyzing Multiple CSV Files](#combining-and-analyzing-multiple-csv-files)
 *   [Health Advice Generation](#health-advice-generation)
 *   [Contributing](#contributing)
+*   [Disclaimer](#Disclaimer)
 *   [License](#license)
 
 ## Project Overview
@@ -92,7 +93,7 @@ This project is designed to run in Google Colab, using the provided notebook ([E
 
 ### Inputting Data Directly
 
-Once the notebook has been executed, you'll be prompted to input data or use a csv file, then you can input patient data directly via the console. You will be asked to provide the name of a patient and all the features as defined above. The model will then generate a prediction on the risk score.
+Once the notebook has been executed, you'll be prompted to input data or use a csv file, then you can input patient data directly via the console. You will be asked to provide the name of a patient and values for the features. The model will then generate a prediction on the risk score.
 
 ### Using a CSV File
 
@@ -114,7 +115,7 @@ To use health advice generation, you need to securely add your Gemini API key as
         *   **Google AI Studio (Recommended for easy setup):**
             Go to [Google AI Studio](https://aistudio.google.com/app/apikey). Create a new API key and copy it.
         *   **Google Cloud Console (Vertex AI):**
-            If you want a more comprehensive project, create a new project, enable the "Vertex AI API", and then create and copy the API key.
+            Create a new project, enable the "Vertex AI API", and then create and copy the API key.
 2.  **Store your API key in Colab Secrets:**
     *   In your Google Colab notebook, go to the left sidebar and click on the **key icon** (Secrets).
     *   Click **"+ Add Secret"**
@@ -133,6 +134,10 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 *   Adding support for other datasets
 *   Adding different model architectures
 *  Improve the documentation
+
+## Disclaimer
+
+**Disclaimer:** This Ensemble Risk Predictor is intended for research purposes only and should not be used as a substitute for professional medical advice. The predictions provided by this model are based on an analysis of data and should not be considered a diagnosis or a guarantee of health outcomes. Always consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment.
 
 ## License
 
