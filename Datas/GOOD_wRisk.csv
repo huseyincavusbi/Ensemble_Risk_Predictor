@@ -1,0 +1,2 @@
+BMI,PhysActivity,Fruits,Veggies,GenHlth,MentHlth,PhysHlth,Age,Education,Income,PatientName,RiskScore
+25.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,6.0,8.0,GOOD,0.013904126352023738
