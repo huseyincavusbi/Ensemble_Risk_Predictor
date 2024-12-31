@@ -141,7 +141,7 @@ To ensure the security of your API key, we will use Google Colab's built-in Secr
    *  **Add:** Finally, click the **"Add Secret"** button.
 
    *  **Key Storage:** This process will securely store your API key within Colab's secret management system. Your key will not be directly visible within your notebook's code.
-   *  
+     
 ## Contributing
 
 Contributions to this project are welcome! Feel free to fork the repository, make changes, and submit a pull request. You can contribute by:
