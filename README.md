@@ -109,24 +109,39 @@ The project uses the Google Gemini API to generate a basic advice based on the r
 
 **Important Security Warning: Never hardcode your API key directly into any notebook.**
 
-To use health advice generation, you need to securely add your Gemini API key as a secret:
+### 1. Obtain Your Gemini API Key
 
-1.  **Get your API Key:** Follow these instructions on how to get one:
-        *   **Google AI Studio (Recommended for easy setup):**
+You can acquire your API key using one of the following methods:
 
-    Go to [Google AI Studio](https://aistudio.google.com/app/apikey). Create a new API key and copy it.
-        *   **Google Cloud Console (Vertex AI):**
+####  *  **Google AI Studio (Recommended for Easy Setup)**
 
-    Create a new project, enable the "Vertex AI API", and then create and copy the API key.
-    
-3.  **Store your API key in Colab Secrets:**
-    *   In your Google Colab notebook, go to the left sidebar and click on the **key icon** (Secrets).
-    *   Click **"+ Add Secret"**
-    *   For the **"Name"** field, use `GEMINI_API_KEY`
-    *   Paste your Gemini API key in the **"Value"** field.
-    *  Click **"Add Secret"**
-    *  This will store your API key securely, without exposing it in the notebook code.
+   *   **Navigate:** Visit the [Google AI Studio](https://aistudio.google.com/app/apikey).
+   *   **Create API Key:** Follow the on-screen instructions to create a new API key.
+   *   **Copy Key:** Once created, copy the API key. **Keep this key secure and do not share it publicly.**
 
+####  *  **Google Cloud Console (Vertex AI)**
+
+   *  **Create Project:** Begin by creating a new project in the [Google Cloud Console](https://console.cloud.google.com/).
+   *  **Enable API:** Enable the "Vertex AI API" for your project.
+   *  **Create API Key:**  Create a new API key following the instructions within the console.
+   *  **Copy Key:** Copy the generated API key. **Treat this key as confidential.**
+
+### 2. Store Your API Key in Colab Secrets
+
+To ensure the security of your API key, we will use Google Colab's built-in Secrets feature:
+
+   *  **Access Secrets:** In your Google Colab notebook, locate the **left sidebar** and click on the **key icon** (labeled "Secrets").
+
+   *  **Add Secret:** Click on the button labeled **"+ Add Secret"**.
+
+   *  **Name the Secret:** In the "Name" field, enter the following (exactly as shown): `GEMINI_API_KEY`.
+
+   *  **Paste API Key:** In the "Value" field, carefully paste the **Gemini API key** you copied in the previous step.
+
+   *  **Add:** Finally, click the **"Add Secret"** button.
+
+   *  **Key Storage:** This process will securely store your API key within Colab's secret management system. Your key will not be directly visible within your notebook's code.
+   *  
 ## Contributing
 
 Contributions to this project are welcome! Feel free to fork the repository, make changes, and submit a pull request. You can contribute by:
