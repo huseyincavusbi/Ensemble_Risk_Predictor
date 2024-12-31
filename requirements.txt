@@ -7,4 +7,4 @@ scikit-learn
 plotly
 imbalanced-learn
 joblib
-groq
+google-generativeai
