@@ -1,7 +1,4 @@
 # Ensemble_Risk_Predictor
-
-<a href="https://colab.research.google.com/github/huseyincavusbi/Ensemble_Risk_Predictor/blob/main/Ensemble_Risk_Predictor.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huseyincavusbi/Ensemble_Risk_Predictor/blob/main/Ensemble_Risk_Predictor.ipynb)
 
 This project provides an ensemble machine learning model to predict the risk of heart disease based on various health indicators. It utilizes a combination of feature selection techniques, resampling methods, and ensemble learning to achieve robust and accurate predictions.
